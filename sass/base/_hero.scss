@@ -1,0 +1,57 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 58.7%;
+  &-heder {
+    text-align: center;
+    font-family: AA BadaBoom BB;
+    font-size: 54px;
+    line-height: 1;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $heder-color;
+    border-top-right-radius: 10px;
+    @media screen and (min-width: 620px) {
+      font-size: 70px;
+    }
+  }
+  &-text {
+    width: 66%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 36px;
+    @media screen and (min-width: 620px) {
+      font-size: 18px;
+    }
+  }
+  &-button {
+    position: relative;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    border: 0px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    &-svg {
+      position: relative;
+      width: 240px;
+      height: 51px;
+      fill: #e93e3a;
+    }
+    &-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: AA BadaBoom BB;
+  src: url(/font/aa_badaboom_bb.ttf);
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+li,
+ul {
+  list-style-type: none;
+}
+body {
+  position: relative;
+  font-family: Merriweather Sans;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.05;
+}
