@@ -841,7 +841,7 @@ th {
       rgba(5, 7, 26, 0) 50%,
       #09091c 92.17%
     ),
-    url(../img/01_TrollsBridge2_Characterleft.png);
+    url(./img/01_TrollsBridge2_Characterleft.png);
   background-repeat: no-repeat;
   right: 2%;
 }
