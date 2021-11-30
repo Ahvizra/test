@@ -1,6 +1,6 @@
 @font-face {
   font-family: AA BadaBoom BB;
-  src: url(./font/aa_badaboom_bb.ttf);
+  src: url(../font/aa_badaboom_bb.ttf);
 }
 
 html {
@@ -705,7 +705,7 @@ th {
   right: 0;
   z-index: -200;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(68.13%, rgba(5, 7, 26, 0)), color-stop(99.19%, #05071a)), -webkit-gradient(linear, right top, left top, color-stop(1.41%, rgba(5, 7, 26, 0)), color-stop(32.32%, rgba(5, 7, 26, 0.86)), color-stop(46.2%, rgba(5, 7, 26, 0.69)), color-stop(61.48%, rgba(5, 7, 26, 0.84)), color-stop(71.8%, rgba(5, 7, 26, 0))), url(/img/02_TrollsBridge2_BackgroundUP.jpg);
-  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 68.13%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.86) 32.32%, rgba(5, 7, 26, 0.69) 46.2%, rgba(5, 7, 26, 0.84) 61.48%, rgba(5, 7, 26, 0) 71.8%), url(./img/02_TrollsBridge2_BackgroundUP.jpg);
+  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 68.13%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.86) 32.32%, rgba(5, 7, 26, 0.69) 46.2%, rgba(5, 7, 26, 0.84) 61.48%, rgba(5, 7, 26, 0) 71.8%), url(../img/02_TrollsBridge2_BackgroundUP.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -718,7 +718,7 @@ th {
   right: 0;
   z-index: -201;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(-1.58%, #05071a), color-stop(52.62%, rgba(5, 7, 26, 0))), -webkit-gradient(linear, left top, left bottom, color-stop(64.74%, rgba(5, 7, 26, 0)), color-stop(99.19%, #05071a)), -webkit-gradient(linear, right top, left top, color-stop(1.41%, rgba(5, 7, 26, 0)), color-stop(22.46%, rgba(5, 7, 26, 0.56)), color-stop(46.2%, rgba(5, 7, 26, 0.8)), color-stop(69.94%, rgba(5, 7, 26, 0.592)), color-stop(87.41%, rgba(5, 7, 26, 0))), url(/img/02_TrollsBridge2_Backgroundbottom.jpg);
-  background-image: linear-gradient(180deg, #05071a -1.58%, rgba(5, 7, 26, 0) 52.62%), linear-gradient(180deg, rgba(5, 7, 26, 0) 64.74%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.56) 22.46%, rgba(5, 7, 26, 0.8) 46.2%, rgba(5, 7, 26, 0.592) 69.94%, rgba(5, 7, 26, 0) 87.41%), url(./img/02_TrollsBridge2_Backgroundbottom.jpg);
+  background-image: linear-gradient(180deg, #05071a -1.58%, rgba(5, 7, 26, 0) 52.62%), linear-gradient(180deg, rgba(5, 7, 26, 0) 64.74%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.56) 22.46%, rgba(5, 7, 26, 0.8) 46.2%, rgba(5, 7, 26, 0.592) 69.94%, rgba(5, 7, 26, 0) 87.41%), url(../img/02_TrollsBridge2_Backgroundbottom.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -736,13 +736,13 @@ th {
 .right {
   left: 4%;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(5, 7, 26, 0)), color-stop(92.17%, #09091c)), url(./img/03_TrollsBridge2_Characterright.png);
-  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), url(./img/03_TrollsBridge2_Characterright.png);
+  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), url(../img/03_TrollsBridge2_Characterright.png);
   background-repeat: no-repeat;
 }
 
 .left {
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(5, 7, 26, 0)), color-stop(92.17%, #09091c)), url(./img/01_TrollsBridge2_Characterleft.png);
-  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), url(./img/01_TrollsBridge2_Characterleft.png);
+  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), url(../img/01_TrollsBridge2_Characterleft.png);
   background-repeat: no-repeat;
   right: 2%;
 }
