@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: AA BadaBoom BB;
-  src: url(/font/aa_badaboom_bb.ttf);
+  src: url(test/font/aa_badaboom_bb.ttf);
 }
 
 html {
@@ -735,14 +735,14 @@ th {
   top: 0;
   right: 0;
   z-index: -200;
-  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 68.13%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.86) 32.32%, rgba(5, 7, 26, 0.69) 46.2%, rgba(5, 7, 26, 0.84) 61.48%, rgba(5, 7, 26, 0) 71.8%), url(./img/02_TrollsBridge2_BackgroundUP.jpg);
+  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 68.13%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.86) 32.32%, rgba(5, 7, 26, 0.69) 46.2%, rgba(5, 7, 26, 0.84) 61.48%, rgba(5, 7, 26, 0) 71.8%), url(test/img/02_TrollsBridge2_BackgroundUP.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .bg-container-up {
-    background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 68.13%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.86) 32.32%, rgba(5, 7, 26, 0.69) 46.2%, rgba(5, 7, 26, 0.84) 61.48%, rgba(5, 7, 26, 0) 71.8%), url(./img/02_TrollsBridge2_BackgroundUP@x2.jpg);
+    background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 68.13%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.86) 32.32%, rgba(5, 7, 26, 0.69) 46.2%, rgba(5, 7, 26, 0.84) 61.48%, rgba(5, 7, 26, 0) 71.8%), url(test/img/02_TrollsBridge2_BackgroundUP@x2.jpg);
   }
 }
 
@@ -753,14 +753,14 @@ th {
   bottom: 0;
   right: 0;
   z-index: -201;
-  background-image: linear-gradient(180deg, #05071a -1.58%, rgba(5, 7, 26, 0) 52.62%), linear-gradient(180deg, rgba(5, 7, 26, 0) 64.74%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.56) 22.46%, rgba(5, 7, 26, 0.8) 46.2%, rgba(5, 7, 26, 0.592) 69.94%, rgba(5, 7, 26, 0) 87.41%), url(./img/02_TrollsBridge2_Backgroundbottom.jpg);
+  background-image: linear-gradient(180deg, #05071a -1.58%, rgba(5, 7, 26, 0) 52.62%), linear-gradient(180deg, rgba(5, 7, 26, 0) 64.74%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.56) 22.46%, rgba(5, 7, 26, 0.8) 46.2%, rgba(5, 7, 26, 0.592) 69.94%, rgba(5, 7, 26, 0) 87.41%), url(test/img/02_TrollsBridge2_Backgroundbottom.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .bg-container-down {
-    background-image: linear-gradient(180deg, #05071a -1.58%, rgba(5, 7, 26, 0) 52.62%), linear-gradient(180deg, rgba(5, 7, 26, 0) 64.74%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.56) 22.46%, rgba(5, 7, 26, 0.8) 46.2%, rgba(5, 7, 26, 0.592) 69.94%, rgba(5, 7, 26, 0) 87.41%), url(./img/02_TrollsBridge2_Backgroundbottom@x2.jpg);
+    background-image: linear-gradient(180deg, #05071a -1.58%, rgba(5, 7, 26, 0) 52.62%), linear-gradient(180deg, rgba(5, 7, 26, 0) 64.74%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.56) 22.46%, rgba(5, 7, 26, 0.8) 46.2%, rgba(5, 7, 26, 0.592) 69.94%, rgba(5, 7, 26, 0) 87.41%), url(test/img/02_TrollsBridge2_Backgroundbottom@x2.jpg);
   }
 }
 
@@ -775,13 +775,13 @@ th {
 
 .right {
   left: 4%;
-  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), url(./img/03_TrollsBridge2_Characterright.png);
+  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), url(test/img/03_TrollsBridge2_Characterright.png);
   background-repeat: no-repeat;
   top: 43%;
 }
 
 .left {
-  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), url(./img/01_TrollsBridge2_Characterleft.png);
+  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), url(test/img/01_TrollsBridge2_Characterleft.png);
   background-repeat: no-repeat;
   right: 2%;
   display: none;
