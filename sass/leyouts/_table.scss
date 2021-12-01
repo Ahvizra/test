@@ -32,6 +32,9 @@
       padding-left: 34px;
       text-align: start;
     }
+    & td:first-child {
+      padding-left: 46px;
+    }
     &-third {
       text-align: end;
       width: 80px;
@@ -95,7 +98,7 @@ th {
 }
 .vector {
   background-repeat: no-repeat;
-  background-position: bottom 6px left 24px;
+  background-position: bottom 6px left 36px;
 }
 .first {
   background-image: url(../img/svg/Vector1.svg);

@@ -627,6 +627,10 @@ acronym {
   text-align: start;
 }
 
+.hero-table-body td:first-child {
+  padding-left: 46px;
+}
+
 .hero-table-body-third {
   text-align: end;
   width: 80px;
@@ -703,7 +707,7 @@ th {
 
 .vector {
   background-repeat: no-repeat;
-  background-position: bottom 6px left 24px;
+  background-position: bottom 6px left 36px;
 }
 
 .first {
