@@ -236,11 +236,11 @@ acronym {
     scale: 100%;
   }
   25% {
-    top: 20px;
+    top: 10px;
     scale: 110%;
   }
   50% {
-    top: -20px;
+    top: -10px;
   }
   100% {
     top: 0px;
@@ -653,6 +653,7 @@ acronym {
 }
 
 .hero-table-btn {
+  cursor: pointer;
   position: relative;
   color: black;
   background-color: rgba(0, 0, 0, 0);
