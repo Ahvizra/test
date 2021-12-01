@@ -4,8 +4,8 @@
   height: 752px;
   position: absolute;
   top: 0;
-  right: 0;
   z-index: -200;
+  background-attachment: scroll;
   background-image: linear-gradient(
       180deg,
       rgba(5, 7, 26, 0) 68.13%,
@@ -49,7 +49,6 @@
   min-width: 486px;
   position: absolute;
   bottom: 0;
-  right: 0;
   z-index: -201;
   background-image: linear-gradient(
       180deg,
