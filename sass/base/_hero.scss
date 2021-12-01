@@ -7,6 +7,8 @@
   margin-right: auto;
   margin-left: auto;
   width: 58.7%;
+  max-width: 821px;
+  min-width: 461px;
   &-heder {
     text-align: center;
     font-family: AA BadaBoom BB;
@@ -21,6 +23,7 @@
     }
   }
   &-text {
+    max-width: 550px;
     width: 66%;
     text-align: center;
     margin-left: auto;
@@ -40,6 +43,22 @@
     box-sizing: border-box;
     border: 0px solid #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    &:hover &-svg,
+    &:focus &-svg {
+      filter: blur(2px);
+      filter: drop-shadow(0 10px 10px #e9453a);
+      transition: all 0.5s ease;
+      fill: #e9453a;
+    }
+    &:hover ~ .hero-level .second-place {
+      animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+    }
+    &:hover ~ .hero-level .first-place {
+      animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+    }
+    &:hover ~ .hero-level .third-place {
+      animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+    }
     &-svg {
       position: relative;
       width: 240px;
@@ -52,6 +71,26 @@
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%);
+      font-weight: bold;
+      font-size: 18px;
+      font-family: Merriweather Sans;
     }
+  }
+}
+@keyframes move {
+  0% {
+    top: 0px;
+    scale: 100%;
+  }
+  25% {
+    top: 20px;
+    scale: 110%;
+  }
+  50% {
+    top: -20px;
+  }
+  100% {
+    top: 0px;
+    scale: 100%;
   }
 }

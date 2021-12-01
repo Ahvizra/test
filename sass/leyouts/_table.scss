@@ -14,8 +14,9 @@
   }
   &-box {
     background-image: url(/img/Group.png);
-    background-position: bottom -29px left 0px;
+    background-position: bottom -29px left -3px;
     background-repeat: repeat-x;
+    width: 98%;
   }
   &-body {
     height: 38px;
@@ -26,16 +27,26 @@
       text-align: end;
     }
     & :first-child {
-      width: 261px;
+      max-width: 261px;
+      min-width: 100px;
       padding-left: 34px;
       text-align: start;
     }
     &-third {
       text-align: end;
-      width: 141px;
+      width: 80px;
+      @media screen and (min-width: 860px) {
+        width: 141px;
+      }
     }
     &-second {
-      width: 141px;
+      width: 100px;
+      @media screen and (min-width: 820px) {
+        width: 141px;
+      }
+    }
+    &-four {
+      width: 237px;
     }
   }
   &-btn {
@@ -55,6 +66,8 @@
       fill: white;
     }
     &-span {
+      font-family: Merriweather Sans;
+      font-weight: 700;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -65,13 +78,12 @@
 }
 td {
   border-bottom: 1px solid black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 th {
-  border-bottom: 1px solid black;
   text-align: start;
-}
-.radius {
-  border-radius: 10px;
 }
 .vector {
   background-repeat: no-repeat;
@@ -93,19 +105,12 @@ th {
 .first3place {
   background-color: #f3f3f3;
 }
-.radius {
-  &-rt {
-    border-top-right-radius: 10px;
-    -moz-border-radius-topright: 10px;
-    -webkit-border-top-right-radius: 10px;
-  }
-  &-lt {
-    border-top-left-radius: 10px;
-    -moz-border-radius-topleft: 10px;
-    -webkit-border-top-left-radius: 10px;
-  }
-}
 .flex {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.table-radius {
+  border-radius: 10px;
+  overflow: hidden;
 }

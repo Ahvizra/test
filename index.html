@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hall of frame</title>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./sass/main.css">
 </head>
 <body>
     <div class="bg-container-up"></div>
@@ -21,7 +21,7 @@
         <svg class="hero-button-svg">
             <use href='./img/svg/symbol-defs.svg#icon-btn'></use>
         </svg>
-        <span class="hero-button-text">Join us</span>
+        <span class="hero-button-text">Join now</span>
     </button>
 <section class="hero-level">
     <div class="hero-level-place second-place">
@@ -37,13 +37,14 @@
                 <stop offset="1" stop-color="#2A3065" />
             </linearGradient>
             </svg>
-            <img class="hero-level-icon-img" src="./img/image 1923.jpg" alt="">
+            <picture>
+                <source srcset="./img/image 1923.jpg 1x, ./img/image 1923@2x.jpg 2x">
+                <img class="hero-level-icon-img" src="./img/image 1923.jpg" alt="">
+            </picture>
             <span class="hero-level-icon-count">2</span>
         </div>
         <div class="hero-level-bottom">
-            <svg class="hero-level-bottom-svg second-bottom">
-                <use href='././img/svg/symbol-defs.svg#icon-bottom'></use>
-            </svg>
+            <div class="hero-level-bottom-svg second-bottom"></div>
             <span class="hero-level-bottom-name second-name">AP184***</span>
             <div class="hero-level-bottom-info info-top">
             <span>BET</span>
@@ -68,13 +69,14 @@
                     <stop offset="1" stop-color="#2A6550" />
                 </linearGradient>
             </svg>
-            <img class="hero-level-icon-img first-img" src="./img/image 1921.jpg" alt="">
+            <picture>
+                <source srcset="./img/image 1921.jpg 1x, ./img/image 1921@2x.jpg 2x">
+                <img class="hero-level-icon-img first-img" src="./img/image 1921.jpg" alt="">
+            </picture>
             <span class="hero-level-icon-count first-count">1</span>
         </div>
         <div class="hero-level-bottom first-position">
-            <svg class="hero-level-bottom-svg first-bottom">
-                <use href='././img/svg/symbol-defs.svg#icon-bottom'></use>
-            </svg>
+            <div class="hero-level-bottom-svg first-bottom"></div>
             <span class="hero-level-bottom-name first-name">Kate***</span>
             <div class="hero-level-bottom-info info-top">
                 <span>BET</span>
@@ -99,13 +101,14 @@
                     <stop offset="1" stop-color="#76113C" />
                 </linearGradient>
             </svg>
-            <img class="hero-level-icon-img" src="./img/image 1922.jpg" alt="">
+            <picture>
+                <source srcset="./img/image 1922.jpg 1x, ./img/image 1922@2x.jpg 2x">
+                <img class="hero-level-icon-img" src="./img/image 1922.jpg" alt="">
+            </picture>
             <span class="hero-level-icon-count">3</span>
         </div>
         <div class="hero-level-bottom">
-            <svg class="hero-level-bottom-svg third-bottom">
-                <use href='././img/svg/symbol-defs.svg#icon-bottom'></use>
-            </svg>
+            <div class="hero-level-bottom-svg third-bottom"></div>
             <span class="hero-level-bottom-name third-name">Lig***</span>
             <div class="hero-level-bottom-info info-top">
                 <span>BET</span>
@@ -119,53 +122,55 @@
     </div>
 </section>
 <section class="flex">
-    <table class="hero-table">
-        <caption class="hero-table-box hero-table-cap">Top winners</caption>
-        <thead>
-          <tr class="hero-table-body header">
-              <th class="radius-lt">Place</th>
-              <th class="hero-table-body-second">Player</th>
-              <th class="hero-table-body-third">Score</th>
-              <th class="radius-rt">Prize</th>
-          </tr>
-        </thead>
-        <tbody>
-            <tr class="hero-table-body first3place">
-                <td class="vector first">1</td>
-                <td>Anja</td>
-                <td class="hero-table-body-third">3.851</td>
-                <td>10000</td>
+    <div class="hero-table-box hero-table-cap">Top winners</div>
+    <div class="table-radius">
+        <table class="hero-table">
+            <thead>
+            <tr class="hero-table-body header">
+                <th>Place</th>
+                <th class="hero-table-body-second">Player</th>
+                <th class="hero-table-body-third">Score</th>
+                <th>Prize</th>
             </tr>
+            </thead>
+            <tbody>
+                <tr class="hero-table-body first3place">
+                    <td class="vector first">1</td>
+                    <td>Anja</td>
+                    <td class="hero-table-body-third">3.851</td>
+                    <td class="hero-table-body-four">10000</td>
+                </tr>
 
-            <tr class="hero-table-body first3place">
-                <td class="vector second">2</td>
-                <td>Vasja</td>
-                <td class="hero-table-body-third">3.753</td>
-                <td>9500</td>
-            </tr>
+                <tr class="hero-table-body first3place">
+                    <td class="vector second">2</td>
+                    <td>Vasja</td>
+                    <td class="hero-table-body-third">3.753</td>
+                    <td class="hero-table-body-four">9500</td>
+                </tr>
 
-            <tr class="hero-table-body first3place">
-                <td class="vector third">3</td>
-                <td>Dima</td>
-                <td class="hero-table-body-third">3.612</td>
-                <td>9000</td>
-            </tr>
+                <tr class="hero-table-body first3place">
+                    <td class="vector third">3</td>
+                    <td>Dima</td>
+                    <td class="hero-table-body-third">3.612</td>
+                    <td class="hero-table-body-four">9000</td>
+                </tr>
 
-            <tr class="hero-table-body">
-                <td>4</td>
-                <td>Kolja</td>
-                <td class="hero-table-body-third">3.121</td>
-                <td>8000</td>
-            </tr>
+                <tr class="hero-table-body">
+                    <td>4</td>
+                    <td>Kolja</td>
+                    <td class="hero-table-body-third">3.121</td>
+                    <td class="hero-table-body-four">8000</td>
+                </tr>
 
-            <tr class="hero-table-body">
-                <td>5</td>
-                <td>Pasha</td>
-                <td class="hero-table-body-third">3.032</td>
-                <td>7000</td>
-            </tr>
-        </tbody>
-    </table>
+                <tr class="hero-table-body">
+                    <td>5</td>
+                    <td>Pasha</td>
+                    <td class="hero-table-body-third">3.032</td>
+                    <td class="hero-table-body-four">7000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     <button class="hero-table-btn">
         <svg class="hero-table-btn-svg">
             <use href='./img/svg/symbol-defs.svg#icon-btn'></use>
