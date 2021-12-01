@@ -18,7 +18,7 @@
       rgba(5, 7, 26, 0.84) 61.48%,
       rgba(5, 7, 26, 0) 71.8%
     ),
-    url(test/img/02_TrollsBridge2_BackgroundUP.jpg);
+    url(./test/img/02_TrollsBridge2_BackgroundUP.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   @media screen and (min-device-pixel-ratio: 2),
@@ -39,7 +39,7 @@
         rgba(5, 7, 26, 0.84) 61.48%,
         rgba(5, 7, 26, 0) 71.8%
       ),
-      url(test/img/02_TrollsBridge2_BackgroundUP@x2.jpg);
+      url(./test/img/02_TrollsBridge2_BackgroundUP@x2.jpg);
   }
 }
 .bg-container-down {
@@ -63,7 +63,7 @@
       rgba(5, 7, 26, 0.592) 69.94%,
       rgba(5, 7, 26, 0) 87.41%
     ),
-    url(test/img/02_TrollsBridge2_Backgroundbottom.jpg);
+    url(./test/img/02_TrollsBridge2_Backgroundbottom.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   @media screen and (min-device-pixel-ratio: 2),
@@ -85,7 +85,7 @@
         rgba(5, 7, 26, 0.592) 69.94%,
         rgba(5, 7, 26, 0) 87.41%
       ),
-      url(test/img/02_TrollsBridge2_Backgroundbottom@x2.jpg);
+      url(./test/img/02_TrollsBridge2_Backgroundbottom@x2.jpg);
   }
 }
 .troll {
@@ -103,7 +103,7 @@
       rgba(5, 7, 26, 0) 50%,
       #09091c 92.17%
     ),
-    url(test/img/03_TrollsBridge2_Characterright.png);
+    url(./test/img/03_TrollsBridge2_Characterright.png);
   background-repeat: no-repeat;
   top: 43%;
 }
@@ -113,7 +113,7 @@
       rgba(5, 7, 26, 0) 50%,
       #09091c 92.17%
     ),
-    url(test/img/01_TrollsBridge2_Characterleft.png);
+    url(./test/img/01_TrollsBridge2_Characterleft.png);
   background-repeat: no-repeat;
   right: 2%;
   display: none;
