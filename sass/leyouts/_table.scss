@@ -59,6 +59,13 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: 27px;
+    &:hover &-svg,
+    &:focus &-svg {
+      filter: blur(2px);
+      filter: drop-shadow(0 10px 10px white);
+      transition: all 0.5s ease;
+      fill: white;
+    }
     &-svg {
       position: relative;
       width: 240px;

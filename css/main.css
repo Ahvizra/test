@@ -664,6 +664,14 @@ acronym {
   margin-top: 27px;
 }
 
+.hero-table-btn:hover .hero-table-btn-svg,
+.hero-table-btn:focus .hero-table-btn-svg {
+  filter: blur(2px);
+  filter: drop-shadow(0 10px 10px white);
+  transition: all 0.5s ease;
+  fill: white;
+}
+
 .hero-table-btn-svg {
   position: relative;
   width: 240px;
