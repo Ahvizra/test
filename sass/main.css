@@ -278,8 +278,8 @@ acronym {
   border: 1px solid #e93e3a;
   border-radius: 15px;
   /*     outline: 1px solid transparent; */
-  -webkit-transform: rotate3D(1, 0, 0, -15deg) skewX(0deg) translateX(0px);
-          transform: rotate3D(1, 0, 0, -15deg) skewX(0deg) translateX(0px);
+  -webkit-transform: rotate3D(1, 0, 0, -15deg);
+          transform: rotate3D(1, 0, 0, -15deg);
 }
 
 .hero__button:hover, .hero__button:focus {
