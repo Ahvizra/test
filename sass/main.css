@@ -554,6 +554,30 @@ acronym {
   width: 100%;
   border-radius: 10px;
   border-spacing: 0;
+  /*   &-btn {
+    &:hover,
+    &:focus {
+      filter: blur(2px);
+      filter: drop-shadow(0 10px 10px white);
+      transition: all 0.5s ease;
+      fill: white;
+    }
+    &-svg {
+      position: relative;
+      width: 240px;
+      height: 51px;
+      fill: white;
+    }
+    &-span {
+      font-family: Merriweather Sans;
+      font-weight: 700;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+  } */
 }
 
 .hero-table-cap {
@@ -586,9 +610,8 @@ acronym {
   text-align: end;
 }
 
-.hero-table-body :first-child {
+.hero-table-body th:first-child {
   width: 31%;
-  min-width: 100px;
   padding-left: 4.2%;
   text-align: start;
 }
@@ -611,34 +634,6 @@ acronym {
   width: 31%;
 }
 
-.hero-table-btn:hover, .hero-table-btn:focus {
-  -webkit-filter: blur(2px);
-          filter: blur(2px);
-  -webkit-filter: drop-shadow(0 10px 10px white);
-          filter: drop-shadow(0 10px 10px white);
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  fill: white;
-}
-
-.hero-table-btn-svg {
-  position: relative;
-  width: 240px;
-  height: 51px;
-  fill: white;
-}
-
-.hero-table-btn-span {
-  font-family: Merriweather Sans;
-  font-weight: 700;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
 td {
   border-bottom: 1px solid black;
   overflow: hidden;
@@ -649,6 +644,7 @@ td {
 
 th {
   text-align: start;
+  padding-right: 15px;
 }
 
 .vector {
@@ -739,58 +735,29 @@ th {
 }
 
 .troll {
-  background-size: 29.4vw 34vw, 30.8vw 34.4vw, 29.4vw 34vw, 30.8vw 34.4vw;
-  background-position: left 3% center, right 3% center, left 3% center, right 3% center;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(5, 7, 26, 0)), color-stop(92.17%, #09091c)), -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(5, 7, 26, 0)), color-stop(92.17%, #09091c)), url(../img/03_TrollsBridge2_Characterright.png), url(../img/01_TrollsBridge2_Characterleft.png);
-  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), url(../img/03_TrollsBridge2_Characterright.png), url(../img/01_TrollsBridge2_Characterleft.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  position: fixed;
+  z-index: -100;
+  top: 10%;
+  /*   transform: translate(0, -50%); */
+  width: 30.8vw;
+  height: 34.3vw;
+  max-width: 431px;
+  max-height: 481px;
 }
 
-/*
+.right {
+  left: 4%;
+  background-size: contain;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(5, 7, 26, 0)), color-stop(92.17%, #09091c)), url(../img/03_TrollsBridge2_Characterright.png);
+  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), url(../img/03_TrollsBridge2_Characterright.png);
+  background-repeat: no-repeat;
+}
+
 .left {
-  background-image: linear-gradient(
-      180deg,
-      rgba(5, 7, 26, 0) 50%,
-      #09091c 92.17%
-    ),
-    url(../img/01_TrollsBridge2_Characterleft.png);
+  right: 4%;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(5, 7, 26, 0)), color-stop(92.17%, #09091c)), url(../img/01_TrollsBridge2_Characterleft.png);
+  background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), url(../img/01_TrollsBridge2_Characterleft.png);
   background-size: contain;
   background-repeat: no-repeat;
-  right: 2%;
-  display: block;
-} */
-/* body {
-  background-image: linear-gradient(
-      180deg,
-      rgba(5, 7, 26, 0) 68.13%,
-      #05071a 99.19%
-    ),
-    linear-gradient(
-      270deg,
-      rgba(5, 7, 26, 0) 1.41%,
-      rgba(5, 7, 26, 0.86) 32.32%,
-      rgba(5, 7, 26, 0.69) 46.2%,
-      rgba(5, 7, 26, 0.84) 61.48%,
-      rgba(5, 7, 26, 0) 71.8%
-    ),
-    linear-gradient(180deg, #05071a -1.58%, rgba(5, 7, 26, 0) 52.62%),
-    linear-gradient(180deg, rgba(5, 7, 26, 0) 64.74%, #05071a 99.19%),
-    linear-gradient(
-      270deg,
-      rgba(5, 7, 26, 0) 1.41%,
-      rgba(5, 7, 26, 0.56) 22.46%,
-      rgba(5, 7, 26, 0.8) 46.2%,
-      rgba(5, 7, 26, 0.592) 69.94%,
-      rgba(5, 7, 26, 0) 87.41%
-    ),
-    url(../img/02_TrollsBridge2_BackgroundUP.jpg),
-    url(../img/02_TrollsBridge2_Backgroundbottom.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: top, bottom;
-} */
-/*   background-size: 100% 62.5%, 100% 62.5%, 100% 62.5%, 100% 40%, 100% 40%,
-    100% auto, 100% auto;
-  background-position: top, top, bottom, bottom, bottom, top, bottom; */
+}
 /*# sourceMappingURL=main.css.map */

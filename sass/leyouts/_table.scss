@@ -26,9 +26,8 @@
       padding-right: 5.7%;
       text-align: end;
     }
-    & :first-child {
+    & th:first-child {
       width: 31%;
-      min-width: 100px;
       padding-left: 4.2%;
       text-align: start;
     }
@@ -47,7 +46,7 @@
       width: 31%;
     }
   }
-  &-btn {
+  /*   &-btn {
     &:hover,
     &:focus {
       filter: blur(2px);
@@ -70,7 +69,7 @@
       margin-right: -50%;
       transform: translate(-50%, -50%);
     }
-  }
+  } */
 }
 td {
   border-bottom: 1px solid black;
@@ -81,6 +80,7 @@ td {
 }
 th {
   text-align: start;
+  padding-right: 15px;
 }
 .vector {
   background-repeat: no-repeat;
