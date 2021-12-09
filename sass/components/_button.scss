@@ -8,10 +8,10 @@
   font-weight: bold;
   font-size: 18px;
   font-family: Merriweather Sans;
-  /*   padding-bottom: 17px;
+  padding-bottom: 17px;
   padding-top: 17px;
   padding-right: 83px;
-  padding-left: 83px; */
+  padding-left: 83px;
   position: relative;
   cursor: pointer;
   max-width: 100%;
@@ -22,7 +22,7 @@
 
   &::after {
     content: "";
-    z-index: -1;
+    z-index: -5;
     position: absolute;
     left: 8px;
     right: 8px;
