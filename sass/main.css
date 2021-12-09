@@ -244,8 +244,8 @@ acronym {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  -webkit-perspective: 200px;
-          perspective: 200px;
+  -webkit-perspective: 100px;
+          perspective: 100px;
   border: 0px solid;
   font-weight: bold;
   font-size: 18px;
@@ -404,7 +404,7 @@ acronym {
 }
 
 .pedestal-bottom__info span:first-child {
-  width: 2.1em;
+  width: 2.5em;
 }
 
 .pedestal-bottom__info span:last-child {
