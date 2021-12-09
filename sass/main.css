@@ -255,21 +255,20 @@ acronym {
   padding-right: 83px;
   padding-left: 83px;
   position: relative;
+  z-index: 2;
   cursor: pointer;
   max-width: 100%;
   color: white;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 0px solid #000000;
-  transform: rotateX(-15deg);
   -webkit-transform: rotateX(-15deg);
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+          transform: rotateX(-15deg);
 }
 
 .hero__button::after {
   content: "";
-  z-index: -5;
+  z-index: -1;
   position: absolute;
   left: 8px;
   right: 8px;
