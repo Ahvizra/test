@@ -3,8 +3,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  perspective: 200px;
-  -webkit-perspective: 200px;
   border: 0px solid;
   font-weight: bold;
   font-size: 18px;
@@ -35,8 +33,7 @@
     border: 1px solid $btn-color;
     border-radius: 15px;
     outline: 1px solid transparent;
-    transform: rotateX(-15deg);
-    -webkit-transform: rotateX(-15deg);
+    transform: perspective(200px) rotateX(-15deg);
   }
   &:hover,
   &:focus {
