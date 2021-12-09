@@ -737,8 +737,7 @@ th {
 .troll {
   position: fixed;
   z-index: -100;
-  top: 10%;
-  /*   transform: translate(0, -50%); */
+  top: 30%;
   width: 30.8vw;
   height: 34.3vw;
   max-width: 431px;
