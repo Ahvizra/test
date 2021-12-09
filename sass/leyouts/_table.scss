@@ -1,9 +1,9 @@
-.hero-table {
+.leader-table {
   table-layout: fixed;
   width: 100%;
   border-radius: 10px;
   border-spacing: 0;
-  &-cap {
+  &__caption {
     font-family: AA BadaBoom BB;
     text-align: center;
     line-height: 1;
@@ -11,74 +11,48 @@
     color: $heder-color;
     padding-bottom: 78px;
     font-size: 35px;
-  }
-  &-box {
     background-image: url(../img/Group.png);
     background-position: bottom -29px left -3px;
     background-repeat: repeat-x;
     width: 95%;
   }
-  &-body {
-    height: 38px;
-    align-items: center;
-    background-color: #dcdcdc;
-    & :last-child {
-      padding-right: 25px;
-      text-align: end;
-      @media screen and (min-width: 700px) {
-        padding-right: 47px;
-      }
-    }
-    & th:first-child {
-      width: 31%;
-      padding-left: 15px;
-      text-align: start;
-      @media screen and (min-width: 700px) {
-        padding-left: 36px;
-      }
-    }
-    & td:first-child {
-      padding-left: 25px;
-      @media screen and (min-width: 700px) {
-        padding-left: 47px;
-      }
-    }
-    &-third {
-      text-align: end;
-      width: 19%;
-      padding-right: 15px;
-    }
-    &-second {
-      width: 19%;
-    }
-    &-four {
-      width: 31%;
+}
+.table-body {
+  height: 38px;
+  align-items: center;
+  background-color: #dcdcdc;
+  & :last-child {
+    padding-right: 25px;
+    text-align: end;
+    @media screen and (min-width: 700px) {
+      padding-right: 47px;
     }
   }
-  /*   &-btn {
-    &:hover,
-    &:focus {
-      filter: blur(2px);
-      filter: drop-shadow(0 10px 10px white);
-      transition: all 0.5s ease;
-      fill: white;
+  & th:first-child {
+    width: 31%;
+    padding-left: 15px;
+    text-align: start;
+    @media screen and (min-width: 700px) {
+      padding-left: 36px;
     }
-    &-svg {
-      position: relative;
-      width: 240px;
-      height: 51px;
-      fill: white;
+  }
+  & td:first-child {
+    padding-left: 25px;
+    @media screen and (min-width: 700px) {
+      padding-left: 47px;
     }
-    &-span {
-      font-family: Merriweather Sans;
-      font-weight: 700;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%);
-    }
-  } */
+  }
+  &__third {
+    text-align: end;
+    width: 19%;
+    padding-right: 15px;
+  }
+  &__second {
+    width: 19%;
+  }
+  &__four {
+    width: 31%;
+  }
 }
 td {
   border-bottom: 1px solid black;
@@ -91,35 +65,56 @@ th {
   text-align: start;
   padding-right: 15px;
 }
-.vector {
+._vector-first {
+  background-image: url(../img/svg/Vector1.svg);
   background-repeat: no-repeat;
   background-position: center left 15px;
   @media screen and (min-width: 700px) {
     background-position: center left 37px;
   }
 }
-.first {
-  background-image: url(../img/svg/Vector1.svg);
-}
-.second {
+._vector-second {
   background-image: url(../img/svg/Vector2.svg);
+  background-repeat: no-repeat;
+  background-position: center left 15px;
+  @media screen and (min-width: 700px) {
+    background-position: center left 37px;
+  }
 }
-.third {
+._vector-third {
   background-image: url(../img/svg/Vector3.svg);
+  background-repeat: no-repeat;
+  background-position: center left 15px;
+  @media screen and (min-width: 700px) {
+    background-position: center left 37px;
+  }
 }
-.header {
+.table-body_header {
   background-color: #fff;
   border-top-right-radius: 10px;
 }
-.first3place {
+.table-body_first3place {
   background-color: #f3f3f3;
 }
-.flex {
+.flex-box {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.table-radius {
+.radius-box {
   border-radius: 10px;
   overflow: hidden;
+}
+.hero__button_pading-theme-white {
+  margin-top: 27px;
+  color: black;
+  &:hover,
+  &:focus {
+    filter: drop-shadow(0 10px 10px white);
+  }
+
+  &::after {
+    background-color: white;
+    border: 1px solid white;
+  }
 }
