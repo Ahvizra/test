@@ -33,7 +33,8 @@
     border: 1px solid $btn-color;
     border-radius: 15px;
     outline: 1px solid transparent;
-    /*     transform: rotateX(-15deg); */
+    transform: rotateX(-15deg);
+    -webkit-transform: rotateX(-15deg);
   }
   &:hover,
   &:focus {
