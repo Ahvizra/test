@@ -606,18 +606,36 @@ acronym {
 }
 
 .hero-table-body :last-child {
-  padding-right: 5.7%;
+  padding-right: 25px;
   text-align: end;
+}
+
+@media screen and (min-width: 700px) {
+  .hero-table-body :last-child {
+    padding-right: 47px;
+  }
 }
 
 .hero-table-body th:first-child {
   width: 31%;
-  padding-left: 4.2%;
+  padding-left: 15px;
   text-align: start;
 }
 
+@media screen and (min-width: 700px) {
+  .hero-table-body th:first-child {
+    padding-left: 36px;
+  }
+}
+
 .hero-table-body td:first-child {
-  padding-left: 5.7%;
+  padding-left: 25px;
+}
+
+@media screen and (min-width: 700px) {
+  .hero-table-body td:first-child {
+    padding-left: 47px;
+  }
 }
 
 .hero-table-body-third {
@@ -649,7 +667,13 @@ th {
 
 .vector {
   background-repeat: no-repeat;
-  background-position: bottom 6px left 16%;
+  background-position: center left 15px;
+}
+
+@media screen and (min-width: 700px) {
+  .vector {
+    background-position: center left 37px;
+  }
 }
 
 .first {
