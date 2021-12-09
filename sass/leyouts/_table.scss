@@ -6,65 +6,50 @@
   &-cap {
     font-family: AA BadaBoom BB;
     text-align: center;
-    font-size: 35px;
     line-height: 1;
     letter-spacing: 0.06em;
     color: $heder-color;
     padding-bottom: 78px;
+    font-size: 35px;
   }
   &-box {
     background-image: url(../img/Group.png);
     background-position: bottom -29px left -3px;
     background-repeat: repeat-x;
-    width: 98%;
+    width: 97%;
   }
   &-body {
     height: 38px;
     align-items: center;
     background-color: #dcdcdc;
     & :last-child {
-      padding-right: 47px;
+      padding-right: 5.7%;
       text-align: end;
     }
     & :first-child {
-      max-width: 261px;
+      width: 31%;
       min-width: 100px;
-      padding-left: 34px;
+      padding-left: 4.2%;
       text-align: start;
     }
     & td:first-child {
-      padding-left: 46px;
+      padding-left: 5.7%;
     }
     &-third {
       text-align: end;
-      width: 80px;
-      @media screen and (min-width: 860px) {
-        width: 141px;
-      }
+      width: 19%;
+      padding-right: 15px;
     }
     &-second {
-      width: 100px;
-      @media screen and (min-width: 820px) {
-        width: 141px;
-      }
+      width: 19%;
     }
     &-four {
-      width: 237px;
+      width: 31%;
     }
   }
   &-btn {
-    cursor: pointer;
-    position: relative;
-    color: black;
-    background-color: rgba(0, 0, 0, 0);
-    box-sizing: border-box;
-    border: 0px solid #000000;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 27px;
-    &:hover &-svg,
-    &:focus &-svg {
+    &:hover,
+    &:focus {
       filter: blur(2px);
       filter: drop-shadow(0 10px 10px white);
       transition: all 0.5s ease;
@@ -92,13 +77,14 @@ td {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  padding-right: 15px;
 }
 th {
   text-align: start;
 }
 .vector {
   background-repeat: no-repeat;
-  background-position: bottom 6px left 36px;
+  background-position: bottom 6px left 16%;
 }
 .first {
   background-image: url(../img/svg/Vector1.svg);
