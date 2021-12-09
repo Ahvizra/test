@@ -188,17 +188,17 @@ acronym {
   }
 }
 
-.hero__button:hover ~ .hero-level .second-place {
+.hero__button:hover ~ .pedestal-box .pedestal-place_second-place {
   -webkit-animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
           animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
 }
 
-.hero__button:hover ~ .hero-level .first-place {
+.hero__button:hover ~ .pedestal-box .pedestal-place_first-place {
   -webkit-animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
           animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
 }
 
-.hero__button:hover ~ .hero-level .third-place {
+.hero__button:hover ~ .pedestal-box .pedestal-place_third-place {
   -webkit-animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
           animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
 }
@@ -568,7 +568,7 @@ acronym {
   background-image: url(../img/Group.png);
   background-position: bottom -29px left -3px;
   background-repeat: repeat-x;
-  width: 95%;
+  width: calc(100% - 20px);
 }
 
 .table-body {
@@ -763,11 +763,42 @@ th {
 .troll {
   position: absolute;
   z-index: -100;
-  top: 30%;
   width: 30.8vw;
   height: 34.3vw;
   max-width: 431px;
   max-height: 481px;
+  min-width: 143px;
+  min-height: 174px;
+}
+
+@media screen and (min-width: 320px) {
+  .troll {
+    bottom: 57%;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .troll {
+    bottom: 60%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .troll {
+    bottom: 56%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .troll {
+    bottom: 54%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .troll {
+    bottom: 42%;
+  }
 }
 
 .right {
