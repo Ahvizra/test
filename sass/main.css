@@ -250,8 +250,8 @@ acronym {
   font-weight: bold;
   font-size: 18px;
   font-family: Merriweather Sans;
-  /*   padding-bottom: 17px;
-  padding-top: 17px; */
+  padding-bottom: 17px;
+  padding-top: 17px;
   padding-right: 83px;
   padding-left: 83px;
   position: relative;
@@ -278,8 +278,7 @@ acronym {
   border: 1px solid #e93e3a;
   border-radius: 15px;
   outline: 1px solid transparent;
-  -webkit-transform: rotate3D(1, 0, 0, -15deg) skewX(0deg) translateX(0px);
-          transform: rotate3D(1, 0, 0, -15deg) skewX(0deg) translateX(0px);
+  /* transform: rotate3D(1, 0, 0, -15deg) skewX(0deg) translateX(0px); */
 }
 
 .hero__button:hover, .hero__button:focus {
