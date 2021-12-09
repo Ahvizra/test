@@ -260,8 +260,8 @@ acronym {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 0px solid #000000;
-  -webkit-transform: perspective(200px) rotateX(15deg);
-          transform: perspective(200px) rotateX(15deg);
+  -webkit-transform: rotateX(15deg);
+          transform: rotateX(15deg);
 }
 
 .hero__button::after {
