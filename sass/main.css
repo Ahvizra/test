@@ -263,6 +263,8 @@ acronym {
   border: 0px solid #000000;
   transform: rotateX(-15deg);
   -webkit-transform: rotateX(-15deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
 }
 
 .hero__button::after {
