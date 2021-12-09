@@ -92,27 +92,21 @@
   }
 }
 .troll {
-  position: absolute;
-  z-index: -100;
-  top: 43%;
-  transform: translate(0, -50%);
-  width: 30.8vw;
-  height: 34.3vw;
-  max-width: 431px;
-  max-height: 481px;
-}
-.right {
-  left: 4%;
-  background-size: contain;
+  background-size: 29.4vw 34vw, 30.8vw 34.4vw, 29.4vw 34vw, 30.8vw 34.4vw;
+  background-position: left 3% center, right 3% center, left 3% center,
+    right 3% center;
   background-image: linear-gradient(
       180deg,
       rgba(5, 7, 26, 0) 50%,
       #09091c 92.17%
     ),
-    url(../img/03_TrollsBridge2_Characterright.png);
+    linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%),
+    url(../img/03_TrollsBridge2_Characterright.png),
+    url(../img/01_TrollsBridge2_Characterleft.png);
   background-repeat: no-repeat;
-  top: 43%;
+  background-attachment: fixed;
 }
+/*
 .left {
   background-image: linear-gradient(
       180deg,
@@ -124,4 +118,38 @@
   background-repeat: no-repeat;
   right: 2%;
   display: block;
-}
+} */
+
+/* body {
+  background-image: linear-gradient(
+      180deg,
+      rgba(5, 7, 26, 0) 68.13%,
+      #05071a 99.19%
+    ),
+    linear-gradient(
+      270deg,
+      rgba(5, 7, 26, 0) 1.41%,
+      rgba(5, 7, 26, 0.86) 32.32%,
+      rgba(5, 7, 26, 0.69) 46.2%,
+      rgba(5, 7, 26, 0.84) 61.48%,
+      rgba(5, 7, 26, 0) 71.8%
+    ),
+    linear-gradient(180deg, #05071a -1.58%, rgba(5, 7, 26, 0) 52.62%),
+    linear-gradient(180deg, rgba(5, 7, 26, 0) 64.74%, #05071a 99.19%),
+    linear-gradient(
+      270deg,
+      rgba(5, 7, 26, 0) 1.41%,
+      rgba(5, 7, 26, 0.56) 22.46%,
+      rgba(5, 7, 26, 0.8) 46.2%,
+      rgba(5, 7, 26, 0.592) 69.94%,
+      rgba(5, 7, 26, 0) 87.41%
+    ),
+    url(../img/02_TrollsBridge2_BackgroundUP.jpg),
+    url(../img/02_TrollsBridge2_Backgroundbottom.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top, bottom;
+} */
+/*   background-size: 100% 62.5%, 100% 62.5%, 100% 62.5%, 100% 40%, 100% 40%,
+    100% auto, 100% auto;
+  background-position: top, top, bottom, bottom, bottom, top, bottom; */
