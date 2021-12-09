@@ -250,6 +250,9 @@ acronym {
 }
 
 .hero-button {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   -webkit-perspective: 200px;
           perspective: 200px;
   border: 0px solid;
@@ -261,6 +264,7 @@ acronym {
   padding-right: 83px;
   padding-left: 83px;
   position: relative;
+  max-width: 100%;
   color: white;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -273,8 +277,8 @@ acronym {
   content: "";
   z-index: -1;
   position: absolute;
-  left: 0;
-  right: 0;
+  left: 8px;
+  right: 8px;
   bottom: 0;
   top: 0;
   cursor: pointer;

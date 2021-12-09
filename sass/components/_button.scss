@@ -1,4 +1,7 @@
 .hero-button {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   perspective: 200px;
   border: 0px solid;
   font-weight: bold;
@@ -9,6 +12,7 @@
   padding-right: 83px;
   padding-left: 83px;
   position: relative;
+  max-width: 100%;
   color: white;
   box-sizing: border-box;
   border: 0px solid #000000;
@@ -18,8 +22,8 @@
     content: "";
     z-index: -1;
     position: absolute;
-    left: 0;
-    right: 0;
+    left: 8px;
+    right: 8px;
     bottom: 0;
     top: 0;
     cursor: pointer;
