@@ -20,9 +20,6 @@
   box-sizing: border-box;
   border: 0px solid #000000;
   display: block;
-  /*   transform: rotateX(16deg);
-  transform-style: flat;
-  transform: translateZ(1px); */
   &::before {
     content: "";
     z-index: -1;

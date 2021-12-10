@@ -262,9 +262,6 @@ acronym {
           box-sizing: border-box;
   border: 0px solid #000000;
   display: block;
-  /*   transform: rotateX(16deg);
-  transform-style: flat;
-  transform: translateZ(1px); */
 }
 
 .hero__button::before {
@@ -718,7 +715,7 @@ th {
           filter: drop-shadow(0 10px 10px white);
 }
 
-.hero__button_pading-theme-white::after {
+.hero__button_pading-theme-white::before {
   background-color: white;
   border: 1px solid white;
 }
