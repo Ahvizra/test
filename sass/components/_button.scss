@@ -19,7 +19,7 @@
   box-sizing: border-box;
   border: 0px solid #000000;
   perspective: 200px;
-  perspective-origin: 0 0;
+  perspective-origin: 50% 20%;
 
   &::after {
     content: "";
