@@ -18,7 +18,7 @@
   color: white;
   box-sizing: border-box;
   border: 0px solid #000000;
-  transform: transformZ(-1px);
+  transform: translateZ(-1px);
   & span {
     position: relative;
     left: 0;
@@ -46,8 +46,4 @@
     filter: drop-shadow(0 10px 10px #e9453a);
     transition: all 0.5s ease;
   }
-}
-.div {
-  position: relative;
-  z-index: 20;
 }
