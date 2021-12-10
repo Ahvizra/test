@@ -260,16 +260,16 @@ acronym {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 0px solid #000000;
-  -webkit-transform: translateZ(-1px);
-          transform: translateZ(-1px);
+  -webkit-transform: translateZ(1px);
+          transform: translateZ(1px);
 }
 
 .hero__button span {
   position: relative;
   left: 0;
   z-index: 100;
-  -webkit-transform: translateZ(100px);
-          transform: translateZ(100px);
+  -webkit-transform: translateZ(-100px);
+          transform: translateZ(-100px);
 }
 
 .hero__button::before {
