@@ -12,13 +12,13 @@
   padding-right: 83px;
   padding-left: 83px;
   position: relative;
-  z-index: 2;
+  z-index: 10;
   cursor: pointer;
   max-width: 100%;
   color: white;
   box-sizing: border-box;
   border: 0px solid #000000;
-  transform: perspective(200px) translateZ(10px);
+  transform: translateZ(10px);
 
   &::after {
     content: "";
