@@ -265,14 +265,14 @@ acronym {
 }
 
 .hero__button span {
-  position: absolute;
+  position: relative;
   left: 0;
   z-index: 100;
   -webkit-transform: translateZ(100px);
           transform: translateZ(100px);
 }
 
-.hero__button::after {
+.hero__button::before {
   content: "";
   z-index: -1;
   position: absolute;
