@@ -260,8 +260,8 @@ acronym {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 0px solid #000000;
-  -webkit-transform: transformZ(-1px);
-          transform: transformZ(-1px);
+  -webkit-transform: translateZ(-1px);
+          transform: translateZ(-1px);
 }
 
 .hero__button span {
@@ -296,11 +296,6 @@ acronym {
           filter: drop-shadow(0 10px 10px #e9453a);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-}
-
-.div {
-  position: relative;
-  z-index: 20;
 }
 
 .pedestal-box {
