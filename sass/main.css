@@ -252,7 +252,7 @@ acronym {
   padding-top: 17px;
   padding-right: 83px;
   padding-left: 83px;
-  position: relative;
+  position: absolute;
   z-index: 0;
   cursor: pointer;
   max-width: 100%;
