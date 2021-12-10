@@ -253,15 +253,15 @@ acronym {
   padding-right: 83px;
   padding-left: 83px;
   position: relative;
-  z-index: 100;
+  z-index: 1;
   cursor: pointer;
   max-width: 100%;
   color: white;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 0px solid #000000;
-  -webkit-transform: perspective(200px) transformZ(100px);
-          transform: perspective(200px) transformZ(100px);
+  -webkit-transform: perspective(200px) transformZ(-1px);
+          transform: perspective(200px) transformZ(-1px);
 }
 
 .hero__button::after {
