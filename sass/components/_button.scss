@@ -38,6 +38,7 @@
     border-radius: 15px;
     outline: 1px solid transparent;
     transform: perspective(200px) rotateX(-15deg);
+    transform-origin: 50% 0;
     transform-style: flat;
   }
   &:hover,

@@ -286,6 +286,8 @@ acronym {
   outline: 1px solid transparent;
   -webkit-transform: perspective(200px) rotateX(-15deg);
           transform: perspective(200px) rotateX(-15deg);
+  -webkit-transform-origin: 50% 0;
+          transform-origin: 50% 0;
   -webkit-transform-style: flat;
           transform-style: flat;
 }
