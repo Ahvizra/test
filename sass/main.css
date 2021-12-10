@@ -252,7 +252,7 @@ acronym {
   padding-top: 17px;
   padding-right: 83px;
   padding-left: 83px;
-  position: absolute;
+  position: relative;
   z-index: 0;
   cursor: pointer;
   max-width: 100%;
@@ -260,7 +260,10 @@ acronym {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 0px solid #000000;
-  /*   transform: translateZ(-10px); */
+  -webkit-perspective: 200px;
+          perspective: 200px;
+  -webkit-perspective-origin: 0 0;
+          perspective-origin: 0 0;
 }
 
 .hero__button::after {
@@ -276,8 +279,8 @@ acronym {
   border: 1px solid #e93e3a;
   border-radius: 15px;
   outline: 1px solid transparent;
-  -webkit-transform: perspective(200px) rotateX(-15deg);
-          transform: perspective(200px) rotateX(-15deg);
+  -webkit-transform: rotateX(-15deg);
+          transform: rotateX(-15deg);
 }
 
 .hero__button:hover, .hero__button:focus {
