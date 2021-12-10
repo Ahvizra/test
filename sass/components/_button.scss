@@ -18,7 +18,7 @@
   color: white;
   box-sizing: border-box;
   border: 0px solid #000000;
-  transform: rotateX(15deg);
+  transform: perspective(200px) rotateX(15deg);
   transform: translateZ(1px);
 
   &::after {
