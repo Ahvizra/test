@@ -19,6 +19,7 @@
   box-sizing: border-box;
   border: 0px solid #000000;
   transform: translateZ(-100px);
+  transform-style: flat;
 
   &::after {
     content: "";
@@ -34,6 +35,7 @@
     border-radius: 15px;
     outline: 1px solid transparent;
     transform: perspective(200px) rotateX(-15deg);
+    transform-style: flat;
   }
   &:hover,
   &:focus {

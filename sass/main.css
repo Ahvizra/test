@@ -262,6 +262,8 @@ acronym {
   border: 0px solid #000000;
   -webkit-transform: translateZ(-100px);
           transform: translateZ(-100px);
+  -webkit-transform-style: flat;
+          transform-style: flat;
 }
 
 .hero__button::after {
@@ -279,6 +281,8 @@ acronym {
   outline: 1px solid transparent;
   -webkit-transform: perspective(200px) rotateX(-15deg);
           transform: perspective(200px) rotateX(-15deg);
+  -webkit-transform-style: flat;
+          transform-style: flat;
 }
 
 .hero__button:hover, .hero__button:focus {
