@@ -20,7 +20,7 @@
   border: 0px solid #000000;
   transform: transformZ(-1px);
   & span {
-    position: absolute;
+    position: relative;
     z-index: 100;
     transform: translateZ(100px);
   }
