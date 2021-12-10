@@ -18,8 +18,7 @@
   color: white;
   box-sizing: border-box;
   border: 0px solid #000000;
-  transform: perspective(200px) rotateX(-15deg);
-
+  transform: perspective(200px) rotateX(0deg);
   &::before {
     content: "";
     z-index: -1;
@@ -34,6 +33,7 @@
     border-radius: 15px;
     outline: 1px solid transparent;
     transform: translateZ(-1px);
+    transform: perspective(200px) rotateX(-15deg);
   }
   &:hover,
   &:focus {
