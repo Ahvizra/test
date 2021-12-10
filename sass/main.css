@@ -260,8 +260,8 @@ acronym {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 0px solid #000000;
-  -webkit-transform: perspective(200px) rotateX(15deg);
-          transform: perspective(200px) rotateX(15deg);
+  -webkit-transform: perspective(200px) rotateX(-15deg);
+          transform: perspective(200px) rotateX(-15deg);
 }
 
 .hero__button::after {
@@ -277,8 +277,6 @@ acronym {
   border: 1px solid #e93e3a;
   border-radius: 15px;
   outline: 1px solid transparent;
-  -webkit-transform: rotateX(-15deg);
-          transform: rotateX(-15deg);
 }
 
 .hero__button:hover, .hero__button:focus {
