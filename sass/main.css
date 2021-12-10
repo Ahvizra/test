@@ -248,8 +248,10 @@ acronym {
   font-weight: bold;
   font-size: 18px;
   font-family: Merriweather Sans;
-  padding-bottom: 17px;
-  padding-top: 17px;
+  /*   padding-bottom: 17px;
+  padding-top: 17px; */
+  text-align: center;
+  height: 53px;
   padding-right: 83px;
   padding-left: 83px;
   position: relative;
@@ -265,8 +267,8 @@ acronym {
           transform: rotateX(16deg);
   -webkit-transform-style: flat;
           transform-style: flat;
-  -webkit-transform: translateZ(10px);
-          transform: translateZ(10px);
+  -webkit-transform: translateZ(1px);
+          transform: translateZ(1px);
 }
 
 .hero__button::before {
