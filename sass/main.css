@@ -262,6 +262,8 @@ acronym {
   border: 0px solid #000000;
   -webkit-transform: rotateX(15deg);
           transform: rotateX(15deg);
+  -webkit-transform: translateZ(1px);
+          transform: translateZ(1px);
 }
 
 .hero__button::after {
