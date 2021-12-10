@@ -18,7 +18,7 @@
   color: white;
   box-sizing: border-box;
   border: 0px solid #000000;
-  transform: translateZ(100px);
+  transform: translateZ(-100px);
 
   &::after {
     content: "";
