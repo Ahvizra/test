@@ -18,8 +18,7 @@
   color: white;
   box-sizing: border-box;
   border: 0px solid #000000;
-  perspective: 200px;
-  perspective-origin: 50% 20%;
+  transform: translateZ(0);
 
   &::after {
     content: "";
@@ -34,7 +33,7 @@
     border: 1px solid $btn-color;
     border-radius: 15px;
     outline: 1px solid transparent;
-    transform: rotateX(-15deg);
+    transform: perspective(200px) rotateX(-15deg);
   }
   &:hover,
   &:focus {
