@@ -261,6 +261,8 @@ acronym {
           box-sizing: border-box;
   border: 0px solid #000000;
   display: block;
+  -webkit-transform: rorateX(16px);
+          transform: rorateX(16px);
   -webkit-transform-style: flat;
           transform-style: flat;
 }
