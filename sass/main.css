@@ -265,7 +265,7 @@ acronym {
 }
 
 .hero__button::before {
-  content: "";
+  content: "lorem";
   z-index: -1;
   position: absolute;
   left: 8px;
