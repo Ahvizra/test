@@ -4,15 +4,13 @@
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 h1,
@@ -125,16 +123,9 @@ acronym {
 }
 
 .hero {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-right: auto;
@@ -189,36 +180,15 @@ acronym {
 }
 
 .hero__button:hover ~ .pedestal-box .pedestal-place_second-place {
-  -webkit-animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
-          animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+  animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
 }
 
 .hero__button:hover ~ .pedestal-box .pedestal-place_first-place {
-  -webkit-animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
-          animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+  animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
 }
 
 .hero__button:hover ~ .pedestal-box .pedestal-place_third-place {
-  -webkit-animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
-          animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
-}
-
-@-webkit-keyframes move {
-  0% {
-    top: 0px;
-    scale: 100%;
-  }
-  25% {
-    top: 10px;
-    scale: 110%;
-  }
-  50% {
-    top: -10px;
-  }
-  100% {
-    top: 0px;
-    scale: 100%;
-  }
+  animation: move 4000ms cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
 }
 
 @keyframes move {
@@ -258,8 +228,7 @@ acronym {
   cursor: pointer;
   max-width: 100%;
   color: white;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 0px solid #000000;
   display: block;
 }
@@ -277,26 +246,18 @@ acronym {
   border: 1px solid #e93e3a;
   border-radius: 15px;
   outline: 1px solid transparent;
-  -webkit-transform: perspective(200px) rotateX(-15deg);
-          transform: perspective(200px) rotateX(-15deg);
-  -webkit-transform-origin: 50% 0;
-          transform-origin: 50% 0;
-  -webkit-transform-style: flat;
-          transform-style: flat;
+  transform: perspective(200px) rotateX(-15deg);
+  transform-origin: 50% 0;
+  transform-style: flat;
 }
 
 .hero__button:hover, .hero__button:focus {
-  -webkit-filter: blur(2px);
-          filter: blur(2px);
-  -webkit-filter: drop-shadow(0 10px 10px #e9453a);
-          filter: drop-shadow(0 10px 10px #e9453a);
-  -webkit-transition: all 0.5s ease;
+  filter: blur(2px);
+  filter: drop-shadow(0 10px 10px #e9453a);
   transition: all 0.5s ease;
 }
 
 .pedestal-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 83px;
   padding-bottom: 130px;
@@ -387,12 +348,8 @@ acronym {
 }
 
 .pedestal-bottom__info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   color: white;
   font-weight: bold;
   padding-bottom: 0.34em;
@@ -479,7 +436,6 @@ acronym {
 
 .pedestal-place_first-place {
   height: 11.1em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(48, 33, 67, 0)), to(rgba(255, 184, 74, 0.3)));
   background: linear-gradient(180deg, rgba(48, 33, 67, 0) 0%, rgba(255, 184, 74, 0.3) 100%);
 }
 
@@ -503,8 +459,7 @@ acronym {
   background-color: black;
   border-radius: 10px;
   border: 1px solid #c7c7c7;
-  -webkit-transform: matrix(1, 0.03, 0.03, 1, 0, 0);
-          transform: matrix(1, 0.03, 0.03, 1, 0, 0);
+  transform: matrix(1, 0.03, 0.03, 1, 0, 0);
 }
 
 .pedestal-bottom__name_second-name {
@@ -514,7 +469,6 @@ acronym {
 
 .pedestal-place_second-place {
   margin-top: 2.5em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(48, 33, 67, 0)), to(rgba(217, 208, 228, 0.3)));
   background: linear-gradient(180deg, rgba(48, 33, 67, 0) 0%, rgba(217, 208, 228, 0.3) 100%);
 }
 
@@ -538,8 +492,7 @@ acronym {
   background-color: black;
   border-radius: 10px;
   border: 1px solid #be8d69;
-  -webkit-transform: matrix(1, -0.03, -0.03, 1, 0, 0);
-          transform: matrix(1, -0.03, -0.03, 1, 0, 0);
+  transform: matrix(1, -0.03, -0.03, 1, 0, 0);
 }
 
 .pedestal-bottom__name_third-name {
@@ -549,7 +502,6 @@ acronym {
 
 .pedestal-place_third-place {
   margin-top: 2.5em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(48, 33, 67, 0)), to(rgba(238, 202, 148, 0.3)));
   background: linear-gradient(180deg, rgba(48, 33, 67, 0) 0%, rgba(238, 202, 148, 0.3) 100%);
 }
 
@@ -576,9 +528,7 @@ acronym {
 
 .table-body {
   height: 38px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background-color: #dcdcdc;
 }
 
@@ -688,16 +638,9 @@ th {
 }
 
 .flex-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .radius-box {
@@ -711,8 +654,7 @@ th {
 }
 
 .hero__button_pading-theme-white:hover, .hero__button_pading-theme-white:focus {
-  -webkit-filter: drop-shadow(0 10px 10px white);
-          filter: drop-shadow(0 10px 10px white);
+  filter: drop-shadow(0 10px 10px white);
 }
 
 .hero__button_pading-theme-white::before {
@@ -729,15 +671,13 @@ th {
   z-index: -200;
   background-attachment: scroll;
   background-position: center center;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(68.13%, rgba(5, 7, 26, 0)), color-stop(99.19%, #05071a)), -webkit-gradient(linear, right top, left top, color-stop(1.41%, rgba(5, 7, 26, 0)), color-stop(32.32%, rgba(5, 7, 26, 0.86)), color-stop(46.2%, rgba(5, 7, 26, 0.69)), color-stop(61.48%, rgba(5, 7, 26, 0.84)), color-stop(71.8%, rgba(5, 7, 26, 0))), url(../img/02_TrollsBridge2_BackgroundUP.jpg);
   background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 68.13%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.86) 32.32%, rgba(5, 7, 26, 0.69) 46.2%, rgba(5, 7, 26, 0.84) 61.48%, rgba(5, 7, 26, 0) 71.8%), url(../img/02_TrollsBridge2_BackgroundUP.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .bg-container-up {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(68.13%, rgba(5, 7, 26, 0)), color-stop(99.19%, #05071a)), -webkit-gradient(linear, right top, left top, color-stop(1.41%, rgba(5, 7, 26, 0)), color-stop(32.32%, rgba(5, 7, 26, 0.86)), color-stop(46.2%, rgba(5, 7, 26, 0.69)), color-stop(61.48%, rgba(5, 7, 26, 0.84)), color-stop(71.8%, rgba(5, 7, 26, 0))), url(../img/02_TrollsBridge2_BackgroundUP@x2.jpg);
     background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 68.13%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.86) 32.32%, rgba(5, 7, 26, 0.69) 46.2%, rgba(5, 7, 26, 0.84) 61.48%, rgba(5, 7, 26, 0) 71.8%), url(../img/02_TrollsBridge2_BackgroundUP@x2.jpg);
   }
 }
@@ -750,15 +690,13 @@ th {
   bottom: 0;
   z-index: -201;
   background-position: center center;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(-1.58%, #05071a), color-stop(52.62%, rgba(5, 7, 26, 0))), -webkit-gradient(linear, left top, left bottom, color-stop(64.74%, rgba(5, 7, 26, 0)), color-stop(99.19%, #05071a)), -webkit-gradient(linear, right top, left top, color-stop(1.41%, rgba(5, 7, 26, 0)), color-stop(22.46%, rgba(5, 7, 26, 0.56)), color-stop(46.2%, rgba(5, 7, 26, 0.8)), color-stop(69.94%, rgba(5, 7, 26, 0.592)), color-stop(87.41%, rgba(5, 7, 26, 0))), url(../img/02_TrollsBridge2_Backgroundbottom.jpg);
   background-image: linear-gradient(180deg, #05071a -1.58%, rgba(5, 7, 26, 0) 52.62%), linear-gradient(180deg, rgba(5, 7, 26, 0) 64.74%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.56) 22.46%, rgba(5, 7, 26, 0.8) 46.2%, rgba(5, 7, 26, 0.592) 69.94%, rgba(5, 7, 26, 0) 87.41%), url(../img/02_TrollsBridge2_Backgroundbottom.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .bg-container-down {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(-1.58%, #05071a), color-stop(52.62%, rgba(5, 7, 26, 0))), -webkit-gradient(linear, left top, left bottom, color-stop(64.74%, rgba(5, 7, 26, 0)), color-stop(99.19%, #05071a)), -webkit-gradient(linear, right top, left top, color-stop(1.41%, rgba(5, 7, 26, 0)), color-stop(22.46%, rgba(5, 7, 26, 0.56)), color-stop(46.2%, rgba(5, 7, 26, 0.8)), color-stop(69.94%, rgba(5, 7, 26, 0.592)), color-stop(87.41%, rgba(5, 7, 26, 0))), url(../img/02_TrollsBridge2_Backgroundbottom@x2.jpg);
     background-image: linear-gradient(180deg, #05071a -1.58%, rgba(5, 7, 26, 0) 52.62%), linear-gradient(180deg, rgba(5, 7, 26, 0) 64.74%, #05071a 99.19%), linear-gradient(270deg, rgba(5, 7, 26, 0) 1.41%, rgba(5, 7, 26, 0.56) 22.46%, rgba(5, 7, 26, 0.8) 46.2%, rgba(5, 7, 26, 0.592) 69.94%, rgba(5, 7, 26, 0) 87.41%), url(../img/02_TrollsBridge2_Backgroundbottom@x2.jpg);
   }
 }
@@ -807,14 +745,12 @@ th {
 .right {
   left: 4%;
   background-size: contain;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(5, 7, 26, 0)), color-stop(92.17%, #09091c)), url(../img/03_TrollsBridge2_Characterright.png);
   background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), url(../img/03_TrollsBridge2_Characterright.png);
   background-repeat: no-repeat;
 }
 
 .left {
   right: 4%;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(5, 7, 26, 0)), color-stop(92.17%, #09091c)), url(../img/01_TrollsBridge2_Characterleft.png);
   background-image: linear-gradient(180deg, rgba(5, 7, 26, 0) 50%, #09091c 92.17%), url(../img/01_TrollsBridge2_Characterleft.png);
   background-size: contain;
   background-repeat: no-repeat;
