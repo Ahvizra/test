@@ -253,14 +253,14 @@ acronym {
   padding-right: 83px;
   padding-left: 83px;
   position: relative;
+  z-index: 0;
   cursor: pointer;
   max-width: 100%;
   color: white;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 0px solid #000000;
-  -webkit-transform: translateZ(15px);
-          transform: translateZ(15px);
+  /*   transform: translateZ(-10px); */
 }
 
 .hero__button::after {
