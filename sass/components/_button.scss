@@ -11,7 +11,7 @@
   padding-top: 17px;
   padding-right: 83px;
   padding-left: 83px;
-  position: relative;
+  position: absolute;
   z-index: 1;
   cursor: pointer;
   max-width: 100%;
@@ -19,12 +19,6 @@
   box-sizing: border-box;
   border: 0px solid #000000;
   transform: translateZ(1px);
-  & span {
-    position: relative;
-    left: 0;
-    z-index: 100;
-    transform: translateZ(-100px);
-  }
   &::before {
     content: "";
     z-index: -1;

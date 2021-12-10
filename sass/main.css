@@ -252,7 +252,7 @@ acronym {
   padding-top: 17px;
   padding-right: 83px;
   padding-left: 83px;
-  position: relative;
+  position: absolute;
   z-index: 1;
   cursor: pointer;
   max-width: 100%;
@@ -262,14 +262,6 @@ acronym {
   border: 0px solid #000000;
   -webkit-transform: translateZ(1px);
           transform: translateZ(1px);
-}
-
-.hero__button span {
-  position: relative;
-  left: 0;
-  z-index: 100;
-  -webkit-transform: translateZ(-100px);
-          transform: translateZ(-100px);
 }
 
 .hero__button::before {
