@@ -260,8 +260,7 @@ acronym {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 0px solid #000000;
-  -webkit-transform: perspective(200px) rotateX(0deg);
-          transform: perspective(200px) rotateX(0deg);
+  display: block;
   -webkit-transform-style: flat;
           transform-style: flat;
 }

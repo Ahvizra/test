@@ -18,7 +18,8 @@
   color: white;
   box-sizing: border-box;
   border: 0px solid #000000;
-  transform: perspective(200px) rotateX(0deg);
+  display: block;
+transform:rorateX(16px)
   transform-style: flat;
   &::before {
     content: "";
