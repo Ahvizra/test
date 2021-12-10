@@ -18,7 +18,7 @@
   color: white;
   box-sizing: border-box;
   border: 0px solid #000000;
-  transform: perspective(200px) transformZ(-1px);
+  transform: transformZ(-1px);
 
   &::after {
     content: "";
