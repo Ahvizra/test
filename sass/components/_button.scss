@@ -19,7 +19,11 @@
   box-sizing: border-box;
   border: 0px solid #000000;
   transform: transformZ(-1px);
-
+  & span {
+    position: absolute;
+    z-index: 100;
+    transform: translateZ(100px);
+  }
   &::after {
     content: "";
     z-index: -1;
