@@ -18,8 +18,8 @@
   color: white;
   box-sizing: border-box;
   border: 0px solid #000000;
-  transform: perspective(200px) rotateX(15deg);
-  transform: translateZ(1px);
+  transform: perspective(200px) rotateX(-15deg);
+  /*   transform: translateZ(10px); */
 
   &::after {
     content: "";
