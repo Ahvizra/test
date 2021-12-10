@@ -251,7 +251,6 @@ acronym {
   padding-bottom: 17px;
   padding-top: 17px;
   text-align: center;
-  /*   height: 53px; */
   padding-right: 83px;
   padding-left: 83px;
   position: relative;
@@ -263,12 +262,9 @@ acronym {
           box-sizing: border-box;
   border: 0px solid #000000;
   display: block;
-  -webkit-transform: rotateX(16deg);
-          transform: rotateX(16deg);
-  -webkit-transform-style: flat;
-          transform-style: flat;
-  -webkit-transform: translateZ(1px);
-          transform: translateZ(1px);
+  /*   transform: rotateX(16deg);
+  transform-style: flat;
+  transform: translateZ(1px); */
 }
 
 .hero__button::before {
