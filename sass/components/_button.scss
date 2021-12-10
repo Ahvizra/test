@@ -11,14 +11,14 @@
   padding-top: 17px;
   padding-right: 83px;
   padding-left: 83px;
-  position: absolute;
+  position: relative;
   z-index: 1;
   cursor: pointer;
   max-width: 100%;
   color: white;
   box-sizing: border-box;
   border: 0px solid #000000;
-  transform: translateZ(1px);
+  transform: perspective(200px) rotateX(-15deg);
 
   &::before {
     content: "lorem";
@@ -33,7 +33,7 @@
     border: 1px solid $btn-color;
     border-radius: 15px;
     outline: 1px solid transparent;
-    transform: perspective(200px) rotateX(-15deg);
+    transform: translateZ(-1px);
   }
   &:hover,
   &:focus {
