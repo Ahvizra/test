@@ -260,8 +260,8 @@ acronym {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 0px solid #000000;
-  -webkit-transform: translateZ(10px);
-          transform: translateZ(10px);
+  -webkit-transform: translateZ(-10px);
+          transform: translateZ(-10px);
 }
 
 .hero__button::after {
