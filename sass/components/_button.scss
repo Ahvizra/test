@@ -19,7 +19,7 @@
   box-sizing: border-box;
   border: 0px solid #000000;
   display: block;
-  transform: rorateX(16px);
+  transform: rotateX(16deg);
   transform-style: flat;
   &::before {
     content: "";
