@@ -21,6 +21,7 @@
   display: block;
   transform: rotateX(16deg);
   transform-style: flat;
+  transform: translateZ(10px);
   &::before {
     content: "";
     z-index: -1;
