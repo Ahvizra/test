@@ -265,7 +265,8 @@ acronym {
 }
 
 .hero__button span {
-  position: relative;
+  position: absolute;
+  left: 0;
   z-index: 100;
   -webkit-transform: translateZ(100px);
           transform: translateZ(100px);
